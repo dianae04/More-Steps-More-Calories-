@@ -105,9 +105,9 @@ We also added `contains_meat`, a binary feature engineered from each recipe's ta
 **Modeling algorithm and hyperparameter selection:** We compared three algorithms on the same features and the same train/test split as our baseline: Random Forest, Gradient Boosting, and Ridge Regression. For the tree-based models, we tuned `max_depth` via `GridSearchCV` with 5-fold cross-validation, searching over `[3, 5, 10, 15, 20, None]` for Random Forest and `[2, 3, 5, 7]` for Gradient Boosting; for Ridge, we tuned `alpha` over `[0.1, 1, 10, 100]`. We chose this search approach because it evaluates each candidate hyperparameter value using cross-validation on the training set only, keeping the test set completely untouched until final evaluation.
 
 The best-performing configurations were:
-- Random Forest: `max_depth=5` — test RMSE 256.22
-- Gradient Boosting: `max_depth=2` — test RMSE 256.24
-- Ridge: `alpha=10` — test RMSE 256.71
+- Random Forest: `max_depth = 5` — test RMSE 256.22
+- Gradient Boosting: `max_depth = 2` — test RMSE 256.24
+- Ridge: `$$\alpha$$ = 10` — test RMSE 256.71
 
 Our final model is the Random Forest Regressor with `max_depth=5`, since it achieved the lowest test RMSE among the three, though the margin over the alternatives was small. This suggests our chosen features — not model complexity — are the primary constraint on predictive performance.
 
