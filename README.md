@@ -17,9 +17,10 @@ The recipes data is a collection of 83,782 recipes posted to the Food.com websit
 
 The Interactions dataset holds more than 700,000 reviews and ratings for the recipes in the recipes dataset.
 
+Coming home after work or school can leave you exhausted and ready to eat. Cooking can involve many steps, so people often gravitate toward easier recipes, although some go the extra mile and choose more involved recipes. This project explores the number of steps in a recipe and how that relates to its nutritional profile, focusing specifically on main-dish recipes and their calorie and fat content.
+
 **Question:** Does the number of steps in a recipe relate to its nutritional content, and does it explain the pattern?
 
-Coming home after work or school can leave you exhausted and ready to eat. Cooking can involve many steps, so people often gravitate toward easier recipes, although some go the extra mile and choose more involved recipes. This project explores the number of steps in a recipe and how that relates to its nutritional profile, focusing specifically on main-dish recipes and their calorie and fat content.
 
 ## Step 2: Data Cleaning and Exploratory Data Analysis
 
