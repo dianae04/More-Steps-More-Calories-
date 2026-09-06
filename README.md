@@ -1,10 +1,6 @@
 # More-Steps-More-Calories-
 Exploratory data analysis and predictive modeling on data from food.com's recipes, examining how recipe complexity relates to nutritional content. Final project for DSC 80 at UCSD. 
 
-# More Steps, More Calories?
-
-Exploratory data analysis and predictive modeling on data from food.com's recipes, examining how recipe complexity relates to nutritional content. Final project for DSC 80 at UCSD.
-
 ## Step 1: Introduction
 
 The recipes data is a collection of 83,782 recipes posted to the Food.com website since 2008. The columns relevant to this analysis are:
@@ -44,7 +40,7 @@ The median calorie count shows a slight upward trend as recipe complexity increa
 
 [Paste your `ingredient_summary.to_markdown()` output here]
 
-Across all ingredient buckets, every nutritional metric — including calories, sugar, fat, sodium, and carbs — consistently increases alongside ingredient count. Most recipes cluster within the 6–15 ingredient range, with very simple (1–5) or highly complex (21+) recipes being less common.
+Across all ingredient buckets, every nutritional metric including calories, sugar, fat, sodium, and carbs consistently increases alongside ingredient count. Most recipes cluster within the 6–15 ingredient range, with very simple (1–5) or highly complex (21+) recipes being less common.
 
 ## Step 3: Assessment of Missingness
 
