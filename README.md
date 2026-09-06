@@ -38,7 +38,13 @@ The median calorie count shows a slight upward trend as recipe complexity increa
 
 ### Interesting Aggregates
 
-[Paste your `ingredient_summary.to_markdown()` output here]
+| ingredient_bucket   |   count |   calories |   sugar |   total_fat |   sodium |   carbs |
+|:--------------------|--------:|-----------:|--------:|------------:|---------:|--------:|
+| 1-5                 |    1728 |      340.3 |       9 |          24 |       21 |       4 |
+| 6-10                |   10835 |      390   |      14 |          27 |       23 |       7 |
+| 11-15               |    8989 |      431.7 |      20 |          29 |       28 |      10 |
+| 16-20               |    2357 |      492.3 |      28 |          35 |       33 |      13 |
+| 21+                 |     409 |      542.2 |      37 |          40 |       37 |      14 |
 
 Across all ingredient buckets, every nutritional metric including calories, sugar, fat, sodium, and carbs consistently increases alongside ingredient count. Most recipes cluster within the 6–15 ingredient range, with very simple (1–5) or highly complex (21+) recipes being less common.
 
