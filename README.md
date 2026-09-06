@@ -107,7 +107,7 @@ We also added `contains_meat`, a binary feature engineered from each recipe's ta
 The best-performing configurations were:
 - Random Forest: `max_depth = 5` — test RMSE 256.22
 - Gradient Boosting: `max_depth = 2` — test RMSE 256.24
-- Ridge: `$$\alpha$$ = 10` — test RMSE 256.71
+- Ridge: `α = 10` — test RMSE 256.71
 
 Our final model is the Random Forest Regressor with `max_depth=5`, since it achieved the lowest test RMSE among the three, though the margin over the alternatives was small. This suggests our chosen features — not model complexity — are the primary constraint on predictive performance.
 
