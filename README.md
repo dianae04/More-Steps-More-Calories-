@@ -38,6 +38,8 @@ The distribution of recipe steps is strongly right-skewed. It peaks between 5 an
 
 <iframe src="assets/univariate-ingredients.html" width="800" height="600" frameborder="0"></iframe>
 
+The distribution of ingredient counts is right-skewed, with a peak around 8 to 10 ingredients per recipe. Most recipes rely on a a set of 5 to 15 ingredients, whereas dishes requiring more than 20 ingredients are rare.
+
 ### Bivariate Analysis
 
 <iframe src="assets/bivariate-calories-steps.html" width="800" height="600" frameborder="0"></iframe>
@@ -45,6 +47,8 @@ The distribution of recipe steps is strongly right-skewed. It peaks between 5 an
 The median calorie count shows a slight upward trend as recipe complexity increases, rising from around 350 calories for 1–5 step recipes to about 500 calories for those with 21+ steps. While more involved recipes tend to be slightly higher in calories, the bulk of recipes across all step categories remain under 1,000 calories, with a significant number of high-calorie outliers present in every group.
 
 <iframe src="assets/bivariate-fat-steps.html" width="800" height="600" frameborder="0"></iframe>
+
+Total fat content trends somewhat upward as recipe complexity increases, with median fat rising from around 23 in 1–5 step recipes to nearly 40 in the 21+ step category. Despite this gradual increase, most recipes across all step counts remain under 60 for total fat, but significant high fat outliers appear in every group.
 
 ### Interesting Aggregates
 
